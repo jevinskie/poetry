@@ -55,8 +55,8 @@ def pip_install(
 
 
 def pip_editable_install(
-    directory: Union["Path", Link], environment: "Env"
+    directory: Union["Path", Link], environment: "Env", upgrade: bool = False,
 ) -> Union[int, str]:
     return pip_install(
-        path=directory, environment=environment, editable=True, deps=False, upgrade=True
+        path=directory, environment=environment, editable=True, deps=False, upgrade=upgrade
     )
