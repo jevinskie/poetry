@@ -1,3 +1,6 @@
+# Poetry - Fork Information
+This fork allows for editable installs of poetry itself.
+
 # Poetry: Dependency Management for Python
 
 Poetry helps you declare, manage and install dependencies of Python projects,
